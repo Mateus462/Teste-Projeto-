@@ -1,0 +1,33 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15/02/2017, 14:24:50
+    Author     : Mateus
+*/
+.cubo{
+    background: aqua;
+    width: 150px;
+    height: 150px;
+    }
+   
+    .cubo:hover{
+        
+       animation-name: animacao;
+       animation-duration: 15s;
+       position: relative;
+    }
+    @keyframes animacao
+    {
+        
+        from{
+                       margin-right: 50%;
+                       background: blue;
+        }
+           to{
+                     margin-left:50%;
+                     background: yellow;
+        }
+    }
